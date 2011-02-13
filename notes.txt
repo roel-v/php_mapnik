@@ -1,0 +1,8 @@
+23-1-2011
+Tried to use PHPUnit. Requires libxml. Need to use debug version to be compatible
+with rest of build. Hard to build on Windows, ditched the whole idea and used lime.
+
+Macro 
+
+15-1-2011
+PHP configure command line: --disable-all --enable-cli --enable-debug

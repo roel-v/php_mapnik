@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mod_mapnik", "mod_mapnik.vcproj", "{93E19F13-2EDA-4530-B7B8-59852416761D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C748F9D-2BCE-4290-8958-D0CC2BC0F27D} = {4C748F9D-2BCE-4290-8958-D0CC2BC0F27D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mapnik", "..\mapnik-0.7.1\vs_project\mapnik.vcproj", "{4C748F9D-2BCE-4290-8958-D0CC2BC0F27D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mapnik_test", "..\mapnik-0.7.1\vs_project\mapnik_test\mapnik_test.vcproj", "{0F43C8CD-A3E6-4714-80CD-93C5E4881957}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C748F9D-2BCE-4290-8958-D0CC2BC0F27D} = {4C748F9D-2BCE-4290-8958-D0CC2BC0F27D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shape_plugin", "shape_plugin.vcproj", "{CF919F7E-CA9E-4121-85C7-E3A2C8B61B34}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C748F9D-2BCE-4290-8958-D0CC2BC0F27D} = {4C748F9D-2BCE-4290-8958-D0CC2BC0F27D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93E19F13-2EDA-4530-B7B8-59852416761D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{93E19F13-2EDA-4530-B7B8-59852416761D}.Debug|Win32.Build.0 = Debug|Win32
+		{93E19F13-2EDA-4530-B7B8-59852416761D}.Release|Win32.ActiveCfg = Release|Win32
+		{93E19F13-2EDA-4530-B7B8-59852416761D}.Release|Win32.Build.0 = Release|Win32
+		{4C748F9D-2BCE-4290-8958-D0CC2BC0F27D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C748F9D-2BCE-4290-8958-D0CC2BC0F27D}.Debug|Win32.Build.0 = Debug|Win32
+		{4C748F9D-2BCE-4290-8958-D0CC2BC0F27D}.Release|Win32.ActiveCfg = Release|Win32
+		{4C748F9D-2BCE-4290-8958-D0CC2BC0F27D}.Release|Win32.Build.0 = Release|Win32
+		{0F43C8CD-A3E6-4714-80CD-93C5E4881957}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0F43C8CD-A3E6-4714-80CD-93C5E4881957}.Debug|Win32.Build.0 = Debug|Win32
+		{0F43C8CD-A3E6-4714-80CD-93C5E4881957}.Release|Win32.ActiveCfg = Release|Win32
+		{0F43C8CD-A3E6-4714-80CD-93C5E4881957}.Release|Win32.Build.0 = Release|Win32
+		{CF919F7E-CA9E-4121-85C7-E3A2C8B61B34}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF919F7E-CA9E-4121-85C7-E3A2C8B61B34}.Debug|Win32.Build.0 = Debug|Win32
+		{CF919F7E-CA9E-4121-85C7-E3A2C8B61B34}.Release|Win32.ActiveCfg = Release|Win32
+		{CF919F7E-CA9E-4121-85C7-E3A2C8B61B34}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

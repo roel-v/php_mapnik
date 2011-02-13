@@ -1,0 +1,7 @@
+http://wiki.php.net/internals/windows/stepbystepbuild   <- Building PHP
+
+http://wiki.php.net/internals/windows/libs  <- Required libs for building
+
+http://devzone.zend.com/article/1022
+
+http://devzone.zend.com/article/4486 <- Wrapping C++ objects

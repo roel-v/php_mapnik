@@ -1,0 +1,4 @@
+ARG_ENABLE("mapnik", "enable mapnik extension", "no");
+if (PHP_MAPNIK != "no") {
+    EXTENSION("mapnik", "mapnik.c");
+}

@@ -1,0 +1,21 @@
+Envelope
+    - Why is there no Coord2D version of re_center()?
+    - Don't 'intersects' and 'contains' do the same thing for points?
+    - Why is there no Coord2D version of init()?
+
+Feature
+    - Is getNumGeometries inconsistent met Map getXXXCount
+    - Why is props std::map<std::string,value>, not a Parameters object?
+
+Geometry
+    - num_points -> getPointCount
+
+Map
+	- no removeFontSet, removeAllFontSet - inconsistent with style operations
+	- insert_style should be called add_style for consistency
+	- add remove_all_styles for consistency with Layers
+
+- Return of shared_ptr is inconvenient because no release(). What is the datasource_deleter for?
+- Why does one add a style to a layer by name, and not by its pointer?
+
+- MAPNIK_EXPORT in DATASOURCE_PLUGIN(classname)

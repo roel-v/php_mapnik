@@ -1,0 +1,4 @@
+- ColorFactory
+- Other Symbolizers
+- Exception on non-existing data / plugin
+- When wrong arguments are passed, log the type of the passed object
